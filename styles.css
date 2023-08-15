@@ -1,0 +1,12 @@
+body {
+    background-color:rgba(117, 142, 253, 0.24)
+}
+
+.card img{
+    border-radius: 15px;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+}
