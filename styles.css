@@ -1,12 +1,54 @@
-body {
-    background-color:rgba(117, 142, 253, 0.24)
+:root {
+    font-size: 15px;
+    font-family: Outfit;
 }
 
-.card img{
+body {
+    background-color:rgba(117, 160, 253, 0.26);
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 15px;
 }
 
-.card{
-    background-color: white;
-    padding: 20px;
+.card img {
+    border-radius: 15px;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
+
+.main-text {
+    text-align: center;
+    margin: 10px 20px 40px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    color:  hsl(220, 15%, 55%);
+    margin: 0 10px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
